@@ -1,0 +1,18 @@
+## trinket-user 10 QKQ1.200209.002 release-keys
+- Manufacturer: realme
+- Platform: trinket
+- Codename: r5x
+- Brand: Realme
+- Flavor: p404_r5x-userdebug
+- Release Version: 13
+- Id: TKQ1.230127.002
+- Incremental: eng.test.20230407.224628
+- Tags: test-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: false
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: Realme/p404_r5x/r5x:13/TKQ1.230127.002/test04072246:userdebug/test-keys
+- OTA version: 
+- Branch: trinket-user-10-QKQ1.200209.002-release-keys
+- Repo: realme_r5x_dump
