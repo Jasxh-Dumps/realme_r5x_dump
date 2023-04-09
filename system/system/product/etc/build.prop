@@ -1,0 +1,45 @@
+####################################
+# from device/realme/r5x/product.prop
+####################################
+# Dex
+ro.sys.fw.dex2oat_thread_count=8
+# LMKD
+ro.config.low_ram=false
+ro.lmk.log_stats=true
+# Graphics
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true
+debug.renderengine.backend=skiaglthreaded
+# Aux Expose
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera,org.pixelexperience.faceunlock
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord,com.android.snapchat
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+dalvik.vm.systemservercompilerfilter=speed-profile
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.input.video_enabled=false
+ro.support_one_handed_mode=true
+ro.config.ringtone=Your_new_adventure.ogg
+ro.config.notification_sound=Eureka.ogg
+ro.config.alarm_alert=Fresh_start.ogg
+bluetooth.profile.a2dp.source.enabled=true
+bluetooth.profile.avrcp.target.enabled=true
+bluetooth.profile.avrcp.controller.enabled=true
+bluetooth.profile.hfp.ag.enabled=true
+bluetooth.profile.asha.central.enabled=true
+bluetooth.profile.gatt.enabled=true
+bluetooth.profile.hid.host.enabled=true
+bluetooth.profile.hid.device.enabled=true
+bluetooth.profile.map.server.enabled=true
+bluetooth.profile.opp.enabled=true
+bluetooth.profile.pan.nap.enabled=true
+bluetooth.profile.pan.panu.enabled=true
+bluetooth.profile.pbap.server.enabled=true
+bluetooth.profile.sap.server.enabled=true
+ro.iorapd.enable=true
+# end of file
